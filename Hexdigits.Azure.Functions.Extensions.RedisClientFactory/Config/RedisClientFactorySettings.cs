@@ -1,4 +1,4 @@
-namespace RedisClientFactory.Extensions.Config
+namespace Hexdigits.Azure.Functions.Extensions.RedisClientFactory.Config
 {
     public class RedisClientFactorySettings
     {

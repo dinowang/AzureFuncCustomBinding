@@ -1,7 +1,7 @@
 using System;
 using Microsoft.Azure.WebJobs.Description;
 
-namespace RedisClientFactory.Extensions.Binding
+namespace Hexdigits.Azure.Functions.Extensions.RedisClientFactory.Binding
 {
     [Binding]
     [AttributeUsage(AttributeTargets.Parameter | AttributeTargets.ReturnValue)]

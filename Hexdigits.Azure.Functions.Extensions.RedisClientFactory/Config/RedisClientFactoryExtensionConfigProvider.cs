@@ -1,9 +1,9 @@
 using Microsoft.Azure.WebJobs.Description;
 using Microsoft.Azure.WebJobs.Host.Config;
-using RedisClientFactory.Extensions.Binding;
 using StackExchange.Redis;
+using Hexdigits.Azure.Functions.Extensions.RedisClientFactory.Binding;
 
-namespace RedisClientFactory.Extensions.Config
+namespace Hexdigits.Azure.Functions.Extensions.RedisClientFactory.Config
 {
     [Extension("RedisClientFactory")]
     internal class RedisClientFactoryExtensionConfigProvider : IExtensionConfigProvider

@@ -7,10 +7,10 @@ using Microsoft.Azure.WebJobs.Extensions.Http;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
-using RedisClientFactory.Extensions.Binding;
 using StackExchange.Redis;
+using Hexdigits.Azure.Functions.Extensions.RedisClientFactory.Binding;
 
-namespace RedisClientFactory.Demo
+namespace Hexdigits.Azure.Functions.Demo
 {
     public static class HttpDemo
     {

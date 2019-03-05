@@ -18,6 +18,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\RedisClientFactory.Extensions\RedisClientFactory.Extensions.csproj"/>
+    <ProjectReference Include="..\Hexdigits.Azure.Functions.Extensions.RedisClientFactory\Hexdigits.Azure.Functions.Extensions.RedisClientFactory.csproj"/>
   </ItemGroup>
 </Project>

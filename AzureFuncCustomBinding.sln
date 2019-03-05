@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisClientFactory.Extensions", "RedisClientFactory.Extensions\RedisClientFactory.Extensions.csproj", "{E8262620-4952-4348-B1A5-686FBB75C567}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hexdigits.Azure.Functions.Extensions.RedisClientFactory", "Hexdigits.Azure.Functions.Extensions.RedisClientFactory\Hexdigits.Azure.Functions.Extensions.RedisClientFactory.csproj", "{E8262620-4952-4348-B1A5-686FBB75C567}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisClientFactory.Demo", "RedisClientFactory.Demo\RedisClientFactory.Demo.csproj", "{6E97EF17-D44C-40C5-831C-F5D00BF2CC0D}"
 EndProject

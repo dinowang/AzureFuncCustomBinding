@@ -1,11 +1,11 @@
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Azure.WebJobs;
 using Microsoft.Azure.WebJobs.Hosting;
-using RedisClientFactory.Extensions.Config;
+using Hexdigits.Azure.Functions.Extensions.RedisClientFactory.Config;
 
-[assembly: WebJobsStartup(typeof(RedisClientFactory.Extensions.RedisClientFactoryWebJobsStartup))]
+[assembly: WebJobsStartup(typeof(Hexdigits.Azure.Functions.Extensions.RedisClientFactory.RedisClientFactoryWebJobsStartup))]
 
-namespace RedisClientFactory.Extensions
+namespace Hexdigits.Azure.Functions.Extensions.RedisClientFactory
 {
     public class RedisClientFactoryWebJobsStartup : IWebJobsStartup
     {

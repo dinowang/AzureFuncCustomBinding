@@ -17,7 +17,7 @@ namespace RedisClientFactory.Demo
         [FunctionName("HttpDemo")]
         public static async Task<IActionResult> Run(
             [HttpTrigger(AuthorizationLevel.Function, "get", "post", Route = null)] HttpRequest req,
-            [RedisClientFactory] IDatabase database,
+            [RedisClientFactory(DatabaseId = 0)] IDatabase database,
             ILogger log)
         {
             database.StringSet("timestamp", DateTime.Now.ToString());

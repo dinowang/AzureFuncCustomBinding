@@ -7,6 +7,6 @@ namespace RedisClientFactory.Extensions.Binding
     [AttributeUsage(AttributeTargets.Parameter | AttributeTargets.ReturnValue)]
     public sealed class RedisClientFactoryAttribute : Attribute
     {
-        
+        public int DatabaseId { get; set; } = 0;
     }
 }

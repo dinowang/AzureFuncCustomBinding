@@ -24,7 +24,7 @@ namespace RedisClientFactory.Extensions.Config
             bindingRule.BindToInput<IDatabase>(x => 
             {
                 var connection = ConnectionMultiplexer.Connect(_settings.ConnectionString, null);
-                return connection.GetDatabase(0);
+                return connection.GetDatabase(x.DatabaseId);
             });
         }
     }
